@@ -24,18 +24,3 @@ java -jar os-download-packages-<version>.jar <api-url> <api-key>
 Assuming you have specified the required parameters correctly, then you should see output similar to that below:
 
 ![Sample Output](/images/example-usage.png)
-
-## Building
-
-If you would like to build a release package locally, you should have the following software installed:
-
-+ OS: Linux, macOS, Windows
-+ Java JDK: version 1.8 or above
-+ Apache Maven
-
-Clone this repository and build the package by issuing:
-
-```sh
-cd <location-of-cloned-tool-repo>
-mvn clean package
-```
